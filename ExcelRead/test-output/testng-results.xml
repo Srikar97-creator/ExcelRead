@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21211" started-at="2021-02-14T11:18:34 IST" finished-at="2021-02-14T11:18:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21211" started-at="2021-02-14T11:18:34 IST" finished-at="2021-02-14T11:18:55 IST">
+      <class name="com.htc.LoginDemo.Test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="setup" is-config="true" duration-ms="7625" started-at="2021-02-14T11:18:35 IST" finished-at="2021-02-14T11:18:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_loginCredential(java.lang.String, java.lang.String)[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="test_loginCredential" duration-ms="2920" started-at="2021-02-14T11:18:43 IST" data-provider="logindata" finished-at="2021-02-14T11:18:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginCredential -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-14T11:18:46 IST" finished-at="2021-02-14T11:18:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="setup" is-config="true" duration-ms="7542" started-at="2021-02-14T11:18:46 IST" finished-at="2021-02-14T11:18:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_loginCredential(java.lang.String, java.lang.String)[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="test_loginCredential" duration-ms="1590" started-at="2021-02-14T11:18:53 IST" data-provider="logindata" finished-at="2021-02-14T11:18:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginCredential -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.LoginDemo.Test.LoginTest@56aac163]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-14T11:18:55 IST" finished-at="2021-02-14T11:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.LoginDemo.Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
